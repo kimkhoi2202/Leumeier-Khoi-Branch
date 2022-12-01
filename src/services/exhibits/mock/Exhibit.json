@@ -1,0 +1,150 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "OBJECTID",
+    "Zone" : "Zone",
+    "Name" : "Name",
+    "Y" : "Y",
+    "X" : "X",
+    "Pic_Url" : "Pic_Url",
+    "Thumb_url" : "Thumb_url",
+    "Artist" : "Artist"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "Zone",
+      "type" : "esriFieldTypeString",
+      "alias" : "Zone",
+      "length" : 8000
+    },
+    {
+      "name" : "Name",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "length" : 8000
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Pic_Url",
+      "type" : "esriFieldTypeString",
+      "alias" : "Pic_Url",
+      "length" : 8000
+    },
+    {
+      "name" : "Thumb_url",
+      "type" : "esriFieldTypeString",
+      "alias" : "Thumb_url",
+      "length" : 8000
+    },
+    {
+      "name" : "Artist",
+      "type" : "esriFieldTypeString",
+      "alias" : "Artist",
+      "length" : 8000
+    }
+  ],
+  "features" : [
+    {"attributes":{
+      "OBJECTID":1,
+      "Zone":"Northern Grove",
+      "Name":"St. Louis Project, 1989",
+      "X":-90.415977999999939,
+      "Y":38.551433000000031,
+      "Pic_Url":"https://c2.staticflickr.com/2/1855/43437191074_2dd325b2f1_b.jpg\n",
+      "Thumb_url":"https://c2.staticflickr.com/2/1855/43437191074_2dd325b2f1_t.jpg\n",
+      "Artist":"RICHARD FLEISCHNER"
+    },
+      "geometry":{
+        "x":-90.415977999999939,
+        "y":38.551433000000031
+      }
+    },
+    {"attributes":{"OBJECTID":2,"Zone":"Northern Grove","Name":"House of the Minotaur, 1980","Y":38.551225000000002,"X":-90.415699000000004,"Pic_Url":"https://c2.staticflickr.com/2/1876/29218108237_0dafe32855_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1876/29218108237_0dafe32855_t.jpg\n","Artist":"TONY ROSENTHAL"},"geometry":{"x":-90.415698999999961,"y":38.551225000000045}},
+    {"attributes":{"OBJECTID":3,"Zone":"Northern Grove","Name":"Walking Roots, 2002","Y":38.551693,"X":-90.415362999999999,"Pic_Url":"https://c2.staticflickr.com/2/1816/43437187574_b43abc459b_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1816/43437187574_b43abc459b_t.jpg\n","Artist":"STEVE TOBIN"},"geometry":{"x":-90.415362999999957,"y":38.551693000000057}},
+    {"attributes":{"OBJECTID":4,"Zone":"Northern Grove","Name":"Profile Canto IV, 1974","Y":38.551685999999997,"X":-90.415704000000005,"Pic_Url":"https://c2.staticflickr.com/2/1832/43437200224_7502c34124_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1832/43437200224_7502c34124_t.jpg\n","Artist":"ERNEST TROVA"},"geometry":{"x":-90.415703999999948,"y":38.551686000000075}},
+    {"attributes":{"OBJECTID":5,"Zone":"Museum-Circle","Name":"Laumeier U-ME-UM, 1998","Y":38.550566000000003,"X":-90.415260000000004,"Pic_Url":"https://c2.staticflickr.com/2/1890/43437196484_a4b5370b92_h.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1890/43437196484_a275743d61_t.jpg\n","Artist":"TERRY ALLEN"},"geometry":{"x":-90.415259999999989,"y":38.55056600000006}},
+    {"attributes":{"OBJECTID":7,"Zone":"Museum-Circle","Name":"Flowers (Tulips), 2004","Y":38.550865000000002,"X":-90.415210000000002,"Pic_Url":"https://c2.staticflickr.com/2/1837/43437186724_c44bfb159f_o.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1837/43437186724_4d8257121f_t.jpg\n","Artist":"DONALD BAECHLER"},"geometry":{"x":-90.415209999999945,"y":38.550865000000044}},
+    {"attributes":{"OBJECTID":8,"Zone":"Museum-Circle","Name":"Java, 1976","Y":38.550117999999998,"X":-90.414417999999998,"Pic_Url":"https://c2.staticflickr.com/2/1896/43437194764_5290e0b7ca_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1896/43437194764_5290e0b7ca_t.jpg\n","Artist":"ANTHONY CARO"},"geometry":{"x":-90.414417999999955,"y":38.550118000000055}},
+    {"attributes":{"OBJECTID":9,"Zone":"Museum-Circle","Name":"Mix (Americana), 2013","Y":38.550792999999999,"X":-90.414850000000001,"Pic_Url":"https://c2.staticflickr.com/2/1879/43437186394_715c9d3a42_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1879/43437186394_715c9d3a42_t.jpg\n","Artist":"ALEXANDRE DA CUNHA"},"geometry":{"x":-90.414849999999944,"y":38.550793000000056}},
+    {"attributes":{"OBJECTID":10,"Zone":"Museum-Circle","Name":"Ricardo Cat, 1999","Y":38.550801,"X":-90.415779999999998,"Pic_Url":"https://c2.staticflickr.com/2/1857/43437193594_978502ed66_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1857/43437193594_978502ed66_t.jpg\n","Artist":"NIKI DE SAINT PHALLE"},"geometry":{"x":-90.415779999999984,"y":38.550801000000035}},
+    {"attributes":{"OBJECTID":11,"Zone":"Museum-Circle","Name":"Twins, 2007","Y":38.550691999999998,"X":-90.415592000000004,"Pic_Url":"https://c2.staticflickr.com/2/1843/43437185654_00417c08e7_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1843/43437185654_00417c08e7_t.jpg\n","Artist":"JOSEPH HAVEL"},"geometry":{"x":-90.415591999999947,"y":38.550692000000026}},
+    {"attributes":{"OBJECTID":12,"Zone":"Museum-Circle","Name":"Ten Untitled plaques from the series Living, 1980-82","Y":38.550379,"X":-90.415335999999996,"Pic_Url":"https://c2.staticflickr.com/2/1882/43249754395_1bedf5b112_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1882/43249754395_1bedf5b112_t.jpg\n","Artist":"JENNY HOLZER"},"geometry":{"x":-90.415335999999968,"y":38.550379000000078}},
+    {"attributes":{"OBJECTID":13,"Zone":"Museum-Circle","Name":"Laumeier Lamps, 2011","Y":38.550649,"X":-90.4161,"Pic_Url":"https://c2.staticflickr.com/2/1861/43437188494_26a7a672c3_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1861/43437188494_26a7a672c3_t.jpg\n","Artist":"T. KELLY MASON"},"geometry":{"x":-90.416099999999972,"y":38.550649000000078}},
+    {"attributes":{"OBJECTID":14,"Zone":"Museum-Circle","Name":"American Heartland Garden and Public Goddess, 1992","Y":38.550696000000002,"X":-90.415257999999994,"Pic_Url":"https://c2.staticflickr.com/2/1891/30288764878_c1c93f93ed_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1891/30288764878_c1c93f93ed_t.jpg\n","Artist":"JUDITH SHEA"},"geometry":{"x":-90.415257999999938,"y":38.550696000000073}},
+    {"attributes":{"OBJECTID":15,"Zone":"FFF-Museum-Lawn","Name":"Bornibus, 1985-87","Y":38.549923,"X":-90.415364999999994,"Pic_Url":"https://c2.staticflickr.com/2/1832/43437193114_eec2f303cd_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1832/43437193114_eec2f303cd_t.jpg\n","Artist":"MARK DI SUVERO"},"geometry":{"x":-90.415364999999952,"y":38.549923000000035}},
+    {"attributes":{"OBJECTID":16,"Zone":"FFF-Museum-Lawn","Name":"Topiary, 2013","Y":38.549950000000003,"X":-90.414531999999994,"Pic_Url":"https://c2.staticflickr.com/2/1859/43437186034_73ab6e5c6c_o.png\n","Thumb_url":"https://c2.staticflickr.com/2/1859/43437186034_184f429810_t.jpg\n","Artist":"PEARL FRYAR"},"geometry":{"x":-90.414531999999951,"y":38.549950000000024}},{"attributes":{"OBJECTID":17,"Zone":"FFF-Museum-Lawn","Name":"Ada's Will, 1990","Y":38.549522000000003,"X":-90.414473000000001,"Pic_Url":"https://c2.staticflickr.com/2/1845/29218111837_519f23d182_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1845/29218111837_519f23d182_t.jpg\n","Artist":"JENE HIGHSTEIN"},"geometry":{"x":-90.414472999999987,"y":38.549522000000024}},
+    {"attributes":{"OBJECTID":18,"Zone":"FFF-Museum-Lawn","Name":"Tower Hybrid, 1979","Y":38.549827000000001,"X":-90.414660999999995,"Pic_Url":"https://c2.staticflickr.com/2/1879/30288771528_435d632ff8_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1879/30288771528_435d632ff8_t.jpg\n","Artist":"RICHARD HUNT"},"geometry":{"x":-90.414660999999967,"y":38.54982700000005}},
+    {"attributes":{"OBJECTID":19,"Zone":"FFF-Museum-Lawn","Name":"When I Rise, 2018","Y":38.549267309999998,"X":-90.415483190000003,"Pic_Url":null,"Thumb_url":null,"Artist":"DAVID HUTSON"},"geometry":{"x":-90.415483189999975,"y":38.549267310000062}},
+    {"attributes":{"OBJECTID":21,"Zone":"FFF-Museum-Lawn","Name":"The Space Between Scott and Plessy, 2013","Y":38.550257000000002,"X":-90.414973000000003,"Pic_Url":"https://c2.staticflickr.com/2/1895/30288769018_4279949bcd_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1895/30288769018_4279949bcd_t.jpg\n","Artist":"KEN LUM"},"geometry":{"x":-90.414972999999975,"y":38.550257000000045}},
+    {"attributes":{"OBJECTID":22,"Zone":"FFF-Museum-Lawn","Name":"Aurelia Roma, 1994","Y":38.550308999999999,"X":-90.415332000000006,"Pic_Url":"https://c2.staticflickr.com/2/1850/43249753745_8435db11da_o.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1850/43249753745_898751c766_t.jpg\n","Artist":"MANUEL NERI"},"geometry":{"x":-90.415331999999978,"y":38.550309000000027}},
+    {"attributes":{"OBJECTID":23,"Zone":"FFF-Museum-Lawn","Name":"Woodhenge, 2016","Y":38.550263999999999,"X":-90.415432999999993,"Pic_Url":"https://c2.staticflickr.com/2/1891/43437187864_31cf6b36b1_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1891/43437187864_31cf6b36b1_t.jpg\n","Artist":"GIGI SCARIA"},"geometry":{"x":-90.41543299999995,"y":38.550264000000027}},
+    {"attributes":{"OBJECTID":24,"Zone":"FFF-Museum-Lawn","Name":"Eye, 2007","Y":38.549715999999997,"X":-90.415102000000005,"Pic_Url":"https://c2.staticflickr.com/2/1898/30288763508_e71cec0bb5_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1898/30288763508_e71cec0bb5_t.jpg\n","Artist":"TONY TASSET"},"geometry":{"x":-90.41510199999999,"y":38.549716000000046}},
+    {"attributes":{"OBJECTID":26,"Zone":"FFF-Museum-Lawn","Name":"Abstract Variation Lozenger No. 3, 1980","Y":38.549422,"X":-90.414839000000001,"Pic_Url":"https://c2.staticflickr.com/2/1820/43437199924_2826308ec7_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1820/43437199924_2826308ec7_t.jpg\n","Artist":"ERNEST TROVA"},"geometry":{"x":-90.414838999999972,"y":38.54942200000005}},
+    {"attributes":{"OBJECTID":27,"Zone":"FFF-Museum-Lawn","Name":"Falling Man/Study (Wrapped Manscape Figure), 1984","Y":38.550382999999997,"X":-90.414843000000005,"Pic_Url":"https://c2.staticflickr.com/2/1815/43437187414_48efc82853_o.png\n","Thumb_url":"https://c2.staticflickr.com/2/1815/43437187414_d41aa4c85c_t.jpg\n","Artist":"ERNEST TROVA"},"geometry":{"x":-90.414842999999962,"y":38.550383000000068}},
+    {"attributes":{"OBJECTID":28,"Zone":"FFF-Museum-Lawn","Name":"Hortus Obscurus (The Dark Garden), 1997","Y":38.549346,"X":-90.415629999999993,"Pic_Url":"https://c2.staticflickr.com/2/1836/43437199684_315dcacdf2_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1836/43437199684_315dcacdf2_t.jpg\n","Artist":"FRANCES WHITEHEAD"},"geometry":{"x":-90.415629999999965,"y":38.549346000000071}},
+    {"attributes":{"OBJECTID":29,"Zone":"Eastern-Woodland","Name":"Without Words, A Reading Room, 1998","Y":38.550787,"X":-90.412436,"Pic_Url":"https://c2.staticflickr.com/2/1838/43437195924_de178caf9e_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1838/43437195924_de178caf9e_t.jpg\n","Artist":"HARRIET BART"},"geometry":{"x":-90.412435999999957,"y":38.550787000000071}},
+    {"attributes":{"OBJECTID":30,"Zone":"Eastern-Woodland","Name":"Man with Briefcase at #2968443, 1986","Y":38.549885000000003,"X":-90.413753999999997,"Pic_Url":"https://c2.staticflickr.com/2/1874/43437186554_be2f260c6d_o.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1874/43437186554_0041587c39_t.jpg\n","Artist":"JONATHAN BOROFSKY"},"geometry":{"x":-90.413753999999983,"y":38.549885000000074}},
+    {"attributes":{"OBJECTID":32,"Zone":"Eastern-Woodland","Name":"Redwood I, 1997","Y":38.551175000000001,"X":-90.412576999999999,"Pic_Url":"https://c2.staticflickr.com/2/1833/43437192764_247b302022_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1833/43437192764_247b302022_t.jpg\n","Artist":"JOHANN FEILACHER"},"geometry":{"x":-90.412576999999942,"y":38.551175000000057}},
+    {"attributes":{"OBJECTID":33,"Zone":"Eastern-Woodland","Name":"Laumeier Project, 1981","Y":38.549590000000002,"X":-90.413436000000004,"Pic_Url":"https://c2.staticflickr.com/2/1876/43437192264_c45ce8621f_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1876/43437192264_c45ce8621f_t.jpg\n","Artist":"JACKIE FERRARA"},"geometry":{"x":-90.41343599999999,"y":38.54959000000008}},
+    {"attributes":{"OBJECTID":34,"Zone":"Eastern-Woodland","Name":"Triangular Bridge Over Water, 1990","Y":38.551029,"X":-90.413447000000005,"Pic_Url":"https://c2.staticflickr.com/2/1868/43437190514_c06d1154dd_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1868/43437190514_c06d1154dd_t.jpg\n","Artist":"DAN GRAHAM"},"geometry":{"x":-90.413446999999962,"y":38.551029000000028}},
+    {"attributes":{"OBJECTID":35,"Zone":"Eastern-Woodland","Name":"Compression Line, 1968","Y":38.550714999999997,"X":-90.413034999999994,"Pic_Url":"https://c2.staticflickr.com/2/1836/43437189284_7d3f961a73_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1836/43437189284_7d3f961a73_t.jpg\n","Artist":"MICHAEL HEIZER"},"geometry":{"x":-90.413034999999979,"y":38.550715000000025}},
+    {"attributes":{"OBJECTID":36,"Zone":"Eastern-Woodland","Name":"Old Temple, 1991","Y":38.546343999999998,"X":-90.416139999999999,"Pic_Url":"https://c2.staticflickr.com/2/1900/30288772198_68a69890ac_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1900/30288772198_68a69890ac_t.jpg\n","Artist":"JENE HIGHSTEIN"},"geometry":{"x":-90.416139999999984,"y":38.546344000000033}},
+    {"attributes":{"OBJECTID":37,"Zone":"Eastern-Woodland","Name":"Linked Forms, 1999","Y":38.548709000000002,"X":-90.414381000000006,"Pic_Url":"https://c2.staticflickr.com/2/1816/29218111097_41172e1632_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1816/29218111097_41172e1632_t.jpg\n","Artist":"RICHARD HUNT"},"geometry":{"x":-90.414380999999935,"y":38.548709000000031}},
+    {"attributes":{"OBJECTID":38,"Zone":"Eastern-Woodland","Name":"Cubed Squared, 1969","Y":38.546374,"X":-90.415870999999996,"Pic_Url":"https://c2.staticflickr.com/2/1898/29218110727_1c0dd03866_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1898/29218110727_1c0dd03866_t.jpg\n","Artist":"JERALD JACQUARD"},"geometry":{"x":-90.415870999999981,"y":38.546374000000071}},
+    {"attributes":{"OBJECTID":39,"Zone":"Eastern-Woodland","Name":"Not Without My Dog, 2011","Y":38.550495599999998,"X":-90.412399300000004,"Pic_Url":"https://c2.staticflickr.com/2/1853/43249754015_d0d153bee5_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1853/43249754015_d0d153bee5_t.jpg\n","Artist":"Tea Mäkipää"},"geometry":{"x":-90.412399299999947,"y":38.550495600000033}},
+    {"attributes":{"OBJECTID":40,"Zone":"Eastern-Woodland","Name":"Together Through  Thick and Thin from Not Without My Dog, 2011","Y":38.549025,"X":-90.412536000000003,"Pic_Url":"https://c2.staticflickr.com/2/1853/43249754015_d0d153bee5_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1853/43249754015_d0d153bee5_t.jpg\n","Artist":"Tea Mäkipää"},"geometry":{"x":-90.412535999999989,"y":38.549025000000029}},
+    {"attributes":{"OBJECTID":41,"Zone":"Eastern-Woodland","Name":"Pool Complex: Orchard Valley, 1983-85","Y":38.550699000000002,"X":-90.412070999999997,"Pic_Url":"https://c2.staticflickr.com/2/1841/30288767778_80b75bba10_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1841/30288767778_80b75bba10_t.jpg\n","Artist":"MARY MISS"},"geometry":{"x":-90.412070999999969,"y":38.550699000000066}},
+    {"attributes":{"OBJECTID":42,"Zone":"Eastern-Woodland","Name":"This area is under 23 hour video and audio surveillance, 2009","Y":38.550027,"X":-90.413330999999999,"Pic_Url":"https://c2.staticflickr.com/2/1890/30288766778_d5a4c14549_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1890/30288766778_d5a4c14549_t.jpg\n","Artist":" Ahmet Öğüt "},"geometry":{"x":-90.413330999999971,"y":38.550027000000057}},
+    {"attributes":{"OBJECTID":43,"Zone":"Eastern-Woodland","Name":"Cromlech Glen, 1985-90","Y":38.549050999999999,"X":-90.412073000000007,"Pic_Url":"https://c2.staticflickr.com/2/1896/30288765888_e32c200c69_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1896/30288765888_e32c200c69_t.jpg\n","Artist":"BEVERLY PEPPER"},"geometry":{"x":-90.412072999999964,"y":38.549051000000077}},
+    {"attributes":{"OBJECTID":44,"Zone":"Eastern-Woodland","Name":"If the World is a Fair Place Then..., 2015","Y":38.550970999999997,"X":-90.413702999999998,"Pic_Url":"https://c2.staticflickr.com/2/1883/43437188094_6b0d0516fb_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1883/43437188094_6b0d0516fb_t.jpg\n","Artist":"RAQS MEDIA COLLECTIVE"},"geometry":{"x":-90.413702999999941,"y":38.550971000000061}},
+    {"attributes":{"OBJECTID":45,"Zone":"Eastern-Woodland","Name":"Abstract Variation No. 5, 1976","Y":38.551678000000003,"X":-90.412705000000003,"Pic_Url":"https://c2.staticflickr.com/2/1867/43437187504_6b32550968_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1867/43437187504_6b32550968_t.jpg\n","Artist":"ERNEST TROVA"},"geometry":{"x":-90.41270499999996,"y":38.551678000000038}},
+    {"attributes":{"OBJECTID":46,"Zone":"Way-Field","Name":"La Libellule, 1996","Y":38.549053000000001,"X":-90.416217000000003,"Pic_Url":"https://c2.staticflickr.com/2/1843/43437196224_45c99c8d6d_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1843/43437196224_45c99c8d6d_t.jpg\n","Artist":"ARMAN"},"geometry":{"x":-90.416216999999961,"y":38.549053000000072}},
+    {"attributes":{"OBJECTID":47,"Zone":"Way-Field","Name":"Untitled (Sacred Real Estate), 2012","Y":38.548281000000003,"X":-90.415701999999996,"Pic_Url":"https://c2.staticflickr.com/2/1880/43437186484_e2d01e3b79_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1880/43437186484_e2d01e3b79_t.jpg\n","Artist":"JUAN WILLIAM CHAVEZ"},"geometry":{"x":-90.415701999999953,"y":38.548281000000031}},
+    {"attributes":{"OBJECTID":48,"Zone":"Way-Field","Name":"Crete, 1976-78","Y":38.548864000000002,"X":-90.415837999999994,"Pic_Url":"https://c2.staticflickr.com/2/1885/29218096417_1f58d3766a_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1885/29218096417_1f58d3766a_t.jpg\n","Artist":"CHARLES GINNEVER"},"geometry":{"x":-90.415837999999951,"y":38.548864000000037}},
+    {"attributes":{"OBJECTID":49,"Zone":"Way-Field","Name":"The Way, 1972-80","Y":38.547488000000001,"X":-90.415966999999995,"Pic_Url":"https://c2.staticflickr.com/2/1846/30288769848_abe1155026_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1846/30288769848_abe1155026_t.jpg\n","Artist":"ALEXANDER LIBERMAN"},"geometry":{"x":-90.415966999999966,"y":38.547488000000044}},
+    {"attributes":{"OBJECTID":50,"Zone":"Way-Field","Name":"St. Louie Bones, 1987","Y":38.548592999999997,"X":-90.415126999999998,"Pic_Url":"https://c2.staticflickr.com/2/1833/29218107747_b7b4f49f31_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1833/29218107747_b7b4f49f31_t.jpg\n","Artist":"ROBERT STACKHOUSE"},"geometry":{"x":-90.415126999999984,"y":38.548593000000039}},
+    {"attributes":{"OBJECTID":51,"Zone":"Way-Field","Name":"Deer, 2015","Y":38.548022000000003,"X":-90.415342999999993,"Pic_Url":"https://c2.staticflickr.com/2/1882/43437187704_e4a75d3c95_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1882/43437187704_e4a75d3c95_t.jpg\n","Artist":"TONY TASSET"},"geometry":{"x":-90.41534299999995,"y":38.54802200000006}},
+    {"attributes":{"OBJECTID":52,"Zone":"Way-Field","Name":"Earthmover, 2014","Y":38.548288999999997,"X":-90.415210999999999,"Pic_Url":"https://c2.staticflickr.com/2/1891/43437187224_ee6fa6dab6_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1891/43437187224_ee6fa6dab6_t.jpg\n","Artist":"MARIE WATT"},"geometry":{"x":-90.415210999999942,"y":38.548289000000068}},
+    {"attributes":{"OBJECTID":54,"Zone":"South-Lawn","Name":"Face of the Earth #3, 1988","Y":38.546979999999998,"X":-90.416704999999993,"Pic_Url":"https://c2.staticflickr.com/2/1814/43437196874_6bc691875c_h.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1814/43437196874_9450e71ff9_t.jpg\n","Artist":"VITO ACCONCI"},"geometry":{"x":-90.416704999999979,"y":38.546980000000076}},
+    {"attributes":{"OBJECTID":55,"Zone":"South-Lawn","Name":"Knots, 1996","Y":38.547353999999999,"X":-90.416922,"Pic_Url":"https://c2.staticflickr.com/2/1864/43437194514_a7c8e64549_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1864/43437194514_a7c8e64549_t.jpg\n","Artist":"COSIMO CAVALLARO"},"geometry":{"x":-90.416921999999943,"y":38.547354000000041}},
+    {"attributes":{"OBJECTID":56,"Zone":"South-Lawn","Name":"Sugabus, 2004","Y":38.546523000000001,"X":-90.418216000000001,"Pic_Url":"https://c2.staticflickr.com/2/1897/43437194044_07372044a7_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1897/43437194044_07372044a7_t.jpg\n","Artist":"ROBERT CHAMBERS"},"geometry":{"x":-90.418215999999973,"y":38.546523000000036}},
+    {"attributes":{"OBJECTID":57,"Zone":"South-Lawn","Name":"Four Shades, 1994","Y":38.546588,"X":-90.417035999999996,"Pic_Url":"https://c2.staticflickr.com/2/1849/29218097317_bf68ccb1e7_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1849/29218097317_bf68ccb1e7_t.jpg\n","Artist":"IAN HAMILTON FINLAY"},"geometry":{"x":-90.417035999999939,"y":38.546588000000042}},
+    {"attributes":{"OBJECTID":58,"Zone":"South-Lawn","Name":"Untitled, 1984","Y":38.546776000000001,"X":-90.417445000000001,"Pic_Url":"https://c2.staticflickr.com/2/1882/43437189024_5e6e3fe617_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1882/43437189024_5e6e3fe617_t.jpg\n","Artist":"DONALD JUDD"},"geometry":{"x":-90.417444999999987,"y":38.546776000000079}},
+    {"attributes":{"OBJECTID":59,"Zone":"South-Lawn","Name":"The Palm at the End of the Parking Lot, 1995","Y":38.54701,"X":-90.416870000000003,"Pic_Url":"https://c2.staticflickr.com/2/1850/29218110307_d047780288_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1850/29218110307_d047780288_t.jpg\n","Artist":"ROBERT LOBE"},"geometry":{"x":-90.41686999999996,"y":38.547010000000057}},
+    {"attributes":{"OBJECTID":60,"Zone":"South-Lawn","Name":"Untitled, 1968-69","Y":38.547150000000002,"X":-90.417429999999996,"Pic_Url":"https://c2.staticflickr.com/2/1868/29218109197_a32aebacc8_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1868/29218109197_a32aebacc8_t.jpg\n","Artist":"ROBERT MORRIS"},"geometry":{"x":-90.417429999999968,"y":38.547150000000045}},
+    {"attributes":{"OBJECTID":61,"Zone":"South-Lawn","Name":"Alpha, 1974","Y":38.547176999999998,"X":-90.418115999999998,"Pic_Url":"https://c2.staticflickr.com/2/1898/29218108707_d1db55fa0e_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1898/29218108707_d1db55fa0e_t.jpg\n","Artist":"BEVERLY PEPPER"},"geometry":{"x":-90.418115999999941,"y":38.547177000000033}},
+    {"attributes":{"OBJECTID":62,"Zone":"South-Lawn","Name":"Gox No. 3, 1974","Y":38.547460000000001,"X":-90.420978000000005,"Pic_Url":"https://c2.staticflickr.com/2/1895/43437200614_b36276a163_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1895/43437200614_b36276a163_t.jpg\n","Artist":"ERNEST TROVA"},"geometry":{"x":-90.420977999999991,"y":38.547460000000058}},
+    {"attributes":{"OBJECTID":63,"Zone":"Emerson-Childrens-Sculpture-Garden","Name":"Donut No. 3, 2002","Y":38.545023,"X":-90.418070999999998,"Pic_Url":"https://c2.staticflickr.com/2/1838/43437195374_a48121c494_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1838/43437195374_a48121c494_t.jpg\n","Artist":"FLETCHER BENTON"},"geometry":{"x":-90.418070999999941,"y":38.545023000000072}},{"attributes":{"OBJECTID":64,"Zone":"Emerson-Childrens-Sculpture-Garden","Name":"Heritage Schooner for Debra Lakin, September 30, 1998, 1998","Y":38.545200999999999,"X":-90.417930999999996,"Pic_Url":"https://c2.staticflickr.com/2/1895/29218095907_fd53c04478_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1895/29218095907_fd53c04478_t.jpg\n","Artist":"GEORGE GREENAMYER"},"geometry":{"x":-90.417930999999953,"y":38.545201000000077}},{"attributes":{"OBJECTID":65,"Zone":"Emerson-Childrens-Sculpture-Garden","Name":"Bugs, 2014-15","Y":38.545492000000003,"X":-90.417544000000007,"Pic_Url":"https://c2.staticflickr.com/2/1883/29218111357_0e4c7020e4_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1883/29218111357_0e4c7020e4_t.jpg\n","Artist":"TOM HUCK"},"geometry":{"x":-90.417543999999964,"y":38.545492000000024}},
+    {"attributes":{"OBJECTID":66,"Zone":"Emerson-Childrens-Sculpture-Garden","Name":"Recess, 2014","Y":38.545822000000001,"X":-90.418602000000007,"Pic_Url":"https://c2.staticflickr.com/2/1871/43249754265_eb4f39f63e_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1871/43249754265_eb4f39f63e_t.jpg\n","Artist":"GEOFFREY KRAWCZYK"},"geometry":{"x":-90.418601999999964,"y":38.545822000000044}},
+    {"attributes":{"OBJECTID":67,"Zone":"Emerson-Childrens-Sculpture-Garden","Name":"Ball? Ball! Wall? Wall!, 1994","Y":38.545456000000001,"X":-90.417165999999995,"Pic_Url":"https://c2.staticflickr.com/2/1876/43437188774_1f0cd97528_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1876/43437188774_1f0cd97528_t.jpg\n","Artist":"DONALD LIPSKI"},"geometry":{"x":-90.417165999999952,"y":38.545456000000058}},
+    {"attributes":{"OBJECTID":68,"Zone":"Emerson-Childrens-Sculpture-Garden","Name":"Cores for Laumeier, 2003","Y":38.545172999999998,"X":-90.417703000000003,"Pic_Url":"https://c2.staticflickr.com/2/1820/29218109767_1f51af2dfa_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1820/29218109767_1f51af2dfa_t.jpg\n","Artist":"MARK MENNIN"},"geometry":{"x":-90.41770299999996,"y":38.545173000000034}},
+    {"attributes":{"OBJECTID":69,"Zone":"Emerson-Childrens-Sculpture-Garden","Name":"Flooded Chambers Maid, 2009-10","Y":38.546045999999997,"X":-90.417619000000002,"Pic_Url":"https://c2.staticflickr.com/2/1853/43249753155_2263eec5df_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1853/43249753155_2263eec5df_t.jpg\n","Artist":"JESSICA STOCKHOLDER"},"geometry":{"x":-90.417618999999945,"y":38.546046000000047}},
+    {"attributes":{"OBJECTID":70,"Zone":"Buildings","Name":"Adam Aronson Fine Arts Center","Y":38.550280999999998,"X":-90.415677000000002,"Pic_Url":"https://c2.staticflickr.com/2/1812/43437199334_eabeaa3836_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1812/43437199334_eabeaa3836_t.jpg\n","Artist":null},"geometry":{"x":-90.41567699999996,"y":38.550281000000041}},
+    {"attributes":{"OBJECTID":71,"Zone":"Buildings","Name":"Kranzberg Education Lab","Y":38.550466999999998,"X":-90.415332000000006,"Pic_Url":"https://c2.staticflickr.com/2/1876/43437186844_ed6ce319ac_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1876/43437186844_ed6ce319ac_t.jpg\n","Artist":null},"geometry":{"x":-90.415331999999978,"y":38.550467000000026}},
+    {"attributes":{"OBJECTID":72,"Zone":"Buildings","Name":"Siteman Carriage House","Y":38.550941770000001,"X":-90.415107309999996,"Pic_Url":null,"Thumb_url":null,"Artist":null},"geometry":{"x":-90.415107309999939,"y":38.550941770000065}},
+    {"attributes":{"OBJECTID":73,"Zone":"Buildings","Name":"Amphitheater","Y":38.548057,"X":-90.414619999999999,"Pic_Url":null,"Thumb_url":null,"Artist":null},"geometry":{"x":-90.414619999999957,"y":38.548057000000028}},
+    {"attributes":{"OBJECTID":74,"Zone":"Buildings","Name":"Moss Shelter and Education Shelters","Y":38.545999999999999,"X":-90.416697999999997,"Pic_Url":"https://c2.staticflickr.com/2/1815/30288758378_94b5bc51ee_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1815/30288758378_94b5bc51ee_t.jpg\n","Artist":null},"geometry":{"x":-90.41669799999994,"y":38.546000000000049}},
+    {"attributes":{"OBJECTID":75,"Zone":"Buildings","Name":"Leaf Pavilion by Frank Schwaiger (2009)","Y":38.545669330000003,"X":-90.417673539999996,"Pic_Url":null,"Thumb_url":null,"Artist":null},"geometry":{"x":-90.417673539999953,"y":38.545669330000067}},
+    {"attributes":{"OBJECTID":76,"Zone":null,"Name":"Bird #1, 2018","Y":38.551321000000002,"X":-90.415308999999993,"Pic_Url":"https://c2.staticflickr.com/2/1820/43249753405_3737d36744_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1820/43249753405_3737d36744_t.jpg\n","Artist":"FARID RASULOV"},"geometry":{"x":-90.415308999999979,"y":38.55132100000003}},
+    {"attributes":{"OBJECTID":77,"Zone":null,"Name":"Hunt + Gather, 2012","Y":38.550891999999997,"X":-90.415215000000003,"Pic_Url":"https://c2.staticflickr.com/2/1812/43437187064_4e83015ca8_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1812/43437187064_4e83015ca8_t.jpg\n","Artist":"KIM YASUDA"},"geometry":{"x":-90.415214999999989,"y":38.550892000000033}},
+    {"attributes":{"OBJECTID":78,"Zone":null,"Name":"Free Hanging Chain, 2014","Y":38.549078000000002,"X":-90.416522999999998,"Pic_Url":"https://c2.staticflickr.com/2/1815/43437186194_0d03c3cf49_b.jpg\n","Thumb_url":"https://c2.staticflickr.com/2/1815/43437186194_0d03c3cf49_t.jpg\n","Artist":"SAM DURANT"},"geometry":{"x":-90.416522999999984,"y":38.549078000000065}}]
+}

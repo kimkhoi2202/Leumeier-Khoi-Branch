@@ -1,0 +1,59 @@
+{
+    "access": "org",
+    "accessInformation": "",
+    "advancedSettings": null,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "commentsEnabled": true,
+    "created": 1655570429000,
+    "culture": "en-us",
+    "description": "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" font-family:'AvenirNext LT Pro Regular'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">App to test new maps and fgeatures</p></body></html>",
+    "documentation": null,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "4425157992034563825c61e2358a0e36",
+    "industries": [
+    ],
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "licenseInfo": "",
+    "listed": false,
+    "modified": 1658675510000,
+    "name": "4425157992034563825c61e2358a0e36.zip",
+    "numComments": 2,
+    "numRatings": 0,
+    "numViews": 25,
+    "owner": "treyh1",
+    "properties": null,
+    "proxyFilter": null,
+    "scoreCompleteness": 83,
+    "screenshots": [
+    ],
+    "size": 10293847,
+    "snippet": "Tester App",
+    "spatialReference": null,
+    "subInfo": 0,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/thumbnail.png",
+    "title": "Laumeier Sculpture Park - Sand Box",
+    "type": "Native Application",
+    "typeKeywords": [
+        "API_QML",
+        "App",
+        "Application",
+        "AppStudio",
+        "Configuration",
+        "Native",
+        "qml",
+        "Registered App"
+    ],
+    "url": "https://ggayba.maps.arcgis.com/apps/instant/nearby/index.html?appid=e034e946a7dd4705a84187ebd929c4cc"
+}

@@ -1,47 +1,16 @@
 import React from "react";
-import styled from "styled-components/native";
-import { Image } from "react-native";
-import { Card } from "react-native-paper";
 
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { Text } from "../../../components/typography/text.component";
 
-const ExhibitCard = styled(Card)`
-  background-color: ${(props) => props.theme.colors.bg.primary};
-`;
-
-const ExhibitCardCover = styled(Card.Cover)`
-  padding: ${(props) => props.theme.space[3]};
-  background-color: ${(props) => props.theme.colors.bg.primary};
-`;
-
-const Zone = styled(Text)`
-  padding: ${(props) => props.theme.space[0]};
-  font-family: ${(props) => props.theme.fonts.monospace};
-  font-size: ${(props) => props.theme.fontSizes.body};
-`;
-
-const Artist = styled(Text)`
-  padding: ${(props) => props.theme.space[0]};
-  font-family: ${(props) => props.theme.fonts.monospace};
-  font-size: ${(props) => props.theme.fontSizes.body};
-  color: ${(props) => props.theme.colors.ui.primary};
-`;
-
-const Info = styled.View`
-  padding: ${(props) => props.theme.space[3]};
-`;
-
-const Section = styled.View`
-  flex-direction: row;
-  align-items: center;
-`;
-
-const SectionEnd = styled.View`
-  flex: 1;
-  flex-direction: row;
-  justify-content: flex-end;
-`;
+import {
+  ExhibitCard,
+  ExhibitCardCover,
+  Info,
+  Section,
+  SectionEnd,
+  Icon,
+} from "./exhibit-info-card.styles";
 
 export const ExhibitInfoCard = ({ Exhibit = {} }) => {
   const {
@@ -60,18 +29,16 @@ export const ExhibitInfoCard = ({ Exhibit = {} }) => {
     <ExhibitCard elevation={5}>
       <ExhibitCardCover key={name} source={{ uri: photos[0] }} />
       <Info>
-        <Text>{name}</Text>
+        <Text variant="label">{name}</Text>
         <Section>
-          <Artist>{artist}</Artist>
+          <Text variant="caption">{artist}</Text>
           <SectionEnd>
-            <Image
-              style={{ width: 45, height: 45 }}
-              key={name}
-              source={{ uri: icons[0] }}
-            />
+            <Spacer position="left" size="large">
+              <Icon key={name} source={{ uri: icons[0] }} />
+            </Spacer>
           </SectionEnd>
         </Section>
-        <Zone>{zone}</Zone>
+        <Text variant="caption">{zone}</Text>
       </Info>
     </ExhibitCard>
   );

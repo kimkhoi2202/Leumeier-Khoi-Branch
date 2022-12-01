@@ -1,31 +1,50 @@
 import React from "react";
 import { Searchbar } from "react-native-paper";
-import { StatusBar, StyleSheet, SafeAreaView, Text, View } from "react-native";
+import { FlatList } from "react-native";
 import styled from "styled-components/native";
 
+import { SafeArea } from "../component/utils/safe-area.components";
 import { ExhibitInfoCard } from "../component/exhibit-info-card.component";
-
-const SafeArea = styled(SafeAreaView)`
-  flex: 1;
-  ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
-`;
+import { Spacer } from "../../../components/spacer/spacer.component";
 
 const SearchContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};
 `;
 
-const ExhibitListContainer = styled.View`
-  flex: 1;
-  padding: ${(props) => props.theme.space[3]};
-`;
+const ExhibitList = styled(FlatList).attrs({
+  contentContainerStyle: {
+    padding: 16,
+  },
+})``;
 
 export const ExhibitsScreen = () => (
   <SafeArea>
     <SearchContainer>
       <Searchbar />
     </SearchContainer>
-    <ExhibitListContainer>
-      <ExhibitInfoCard />
-    </ExhibitListContainer>
+    <ExhibitList
+      data={[
+        { name: 1 },
+        { name: 2 },
+        { name: 3 },
+        { name: 4 },
+        { name: 5 },
+        { name: 6 },
+        { name: 7 },
+        { name: 8 },
+        { name: 9 },
+        { name: 10 },
+        { name: 11 },
+        { name: 12 },
+        { name: 13 },
+        { name: 14 },
+      ]}
+      renderItem={() => (
+        <Spacer position="bottom" size="large">
+          <ExhibitInfoCard />
+        </Spacer>
+      )}
+      keyExtractor={(item) => item.name}
+    />
   </SafeArea>
 );
