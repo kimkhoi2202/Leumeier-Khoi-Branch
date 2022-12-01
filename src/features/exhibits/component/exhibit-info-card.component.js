@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components/native";
-import { Text, StyleSheet } from "react-native";
+import { Image } from "react-native";
 import { Card } from "react-native-paper";
-import { SvgXml } from "react-native-svg";
 
-import star from "../../../../assets/star";
-import open from "../../../../assets/open";
+import { Spacer } from "../../../components/spacer/spacer.component";
+import { Text } from "../../../components/typography/text.component";
 
 const ExhibitCard = styled(Card)`
   background-color: ${(props) => props.theme.colors.bg.primary};
@@ -16,25 +15,21 @@ const ExhibitCardCover = styled(Card.Cover)`
   background-color: ${(props) => props.theme.colors.bg.primary};
 `;
 
-const Address = styled(Text)`
-  font-family: ${(props) => props.theme.fonts.body};
-  font-size: ${(props) => props.theme.fontSizes.caption};
+const Zone = styled(Text)`
+  padding: ${(props) => props.theme.space[0]};
+  font-family: ${(props) => props.theme.fonts.monospace};
+  font-size: ${(props) => props.theme.fontSizes.body};
 `;
 
-const Title = styled(Text)`
-  font-family: ${(props) => props.theme.fonts.heading};
+const Artist = styled(Text)`
+  padding: ${(props) => props.theme.space[0]};
+  font-family: ${(props) => props.theme.fonts.monospace};
   font-size: ${(props) => props.theme.fontSizes.body};
   color: ${(props) => props.theme.colors.ui.primary};
 `;
 
 const Info = styled.View`
   padding: ${(props) => props.theme.space[3]};
-`;
-
-const Rating = styled.View`
-  flex-direction: row;
-  padding-top: ${(props) => props.theme.space[2]};
-  padding-bottom: ${(props) => props.theme.space[2]};
 `;
 
 const Section = styled.View`
@@ -50,34 +45,33 @@ const SectionEnd = styled.View`
 
 export const ExhibitInfoCard = ({ Exhibit = {} }) => {
   const {
-    name = "They Eye",
-    icon,
+    name = "The Eye",
+    zone = "Ferring Family Foumdation - Museum Lawn",
+    icons = [
+      "https://live.staticflickr.com/65535/52237386792_b2760fd6e4_w.jpg",
+    ],
     photos = [
       "https://c2.staticflickr.com/2/1898/30288763508_e71cec0bb5_b.jpg",
     ],
-    address = "Ferring Family Foumdation - Museum Lawn",
-    isOpenNow = true,
-    rating = 4,
-    isClosedTemporarily,
+    artist = "Tony Tasset",
   } = Exhibit;
-
-  const ratingArray = Array.from(new Array(Math.floor(rating)));
 
   return (
     <ExhibitCard elevation={5}>
       <ExhibitCardCover key={name} source={{ uri: photos[0] }} />
       <Info>
-        <Title>{name}</Title>
+        <Text>{name}</Text>
         <Section>
+          <Artist>{artist}</Artist>
           <SectionEnd>
-            <Rating>
-              {ratingArray.map(() => (
-                <SvgXml xml={star} width={20} height={20} />
-              ))}
-            </Rating>
+            <Image
+              style={{ width: 45, height: 45 }}
+              key={name}
+              source={{ uri: icons[0] }}
+            />
           </SectionEnd>
         </Section>
-        <Address>{address}</Address>
+        <Zone>{zone}</Zone>
       </Info>
     </ExhibitCard>
   );
