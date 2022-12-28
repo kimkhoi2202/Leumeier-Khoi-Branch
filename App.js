@@ -12,9 +12,9 @@ import {
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 
 import { theme } from "./src/infrastructure/theme";
-import { ExhibitsScreen } from "./src/features/exhibits/screens/exhibits.screen";
-import { HomeScreen } from "./src/features/exhibits/screens/home.screen";
-import { SafeArea } from "./src/features/exhibits/component/utils/safe-area.components";
+import { ExhibitsScreen } from "./src/features/screens/exhibits.screen";
+import { HomeScreen } from "./src/features/screens/home.screen";
+import { SafeArea } from "./src/infrastructure/spacer/safe-area.components";
 
 const Tab = createBottomTabNavigator();
 

@@ -5,24 +5,25 @@ export const colors = {
     muted: "#C6DAF7",
   },
   ui: {
-    primary: "#262626",
-    secondary: "#757575",
-    tertiary: "#F1F1F1",
-    quaternary: "#FFFFFF",
-    disabled: "#DEDEDE",
-    error: "#D0421B",
-    success: "#138000",
+    primary: "#FF5733", //burnt orange
+    secondary: "#FCC0B3", //light orange
+    tertiary: "#FFFFFF", //white
+    quaternary: "000000", //black
+    disabled: "#DEDEDE", //gray
+    error: "#FF0000", //red
+    success: "#31A771", //green
   },
   bg: {
-    primary: "#FFFFFF",
-    secondary: "#F1F1F1",
+    primary: "#FFFFFF", //white
+    secondary: "#FCC0B3", //light orange
+    tertiary: "#F1F1F1", //light gray
   },
   text: {
-    primary: "#262626",
-    secondary: "#757575",
-    disabled: "#9C9C9C",
-    inverse: "#FFFFFF",
-    error: "#D0421B",
-    success: "#138000",
+    primary: "#262626", //light black
+    secondary: "#FF5733", //burnt orange
+    disabled: "#DEDEDE", //gray
+    inverse: "#FFFFFF", //white
+    error: "#FF0000", //red
+    success: "#31A771", //green
   },
 };
