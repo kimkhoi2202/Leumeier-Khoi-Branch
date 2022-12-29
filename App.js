@@ -12,8 +12,8 @@ import {
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 
 import { theme } from "./src/infrastructure/theme";
-import { ExhibitsScreen } from "./src/features/screens/exhibits.screen";
-import { HomeScreen } from "./src/features/screens/home.screen";
+// import { ExhibitsScreen } from "./src/features/screens/exhibits.screen";
+// import { HomeScreen } from "./src/features/screens/home.screen";
 import { SafeArea } from "./src/infrastructure/spacer/safe-area.components";
 
 const Tab = createBottomTabNavigator();
@@ -33,6 +33,12 @@ const Home = () => (
 const Explore = () => (
   <SafeArea>
     <Text>Explore</Text>
+  </SafeArea>
+);
+
+const Exhibits = () => (
+  <SafeArea>
+    <Text>Exhibits</Text>
   </SafeArea>
 );
 
@@ -63,9 +69,9 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <NavigationContainer>
           <Tab.Navigator screenOptions={createScreenOptions}>
-            <Tab.Screen name="Home" component={HomeScreen} />
+            <Tab.Screen name="Home" component={Home} />
             <Tab.Screen name="Explore" component={Explore} />
-            <Tab.Screen name="Exhibits" component={ExhibitsScreen} />
+            <Tab.Screen name="Exhibits" component={Exhibits} />
           </Tab.Navigator>
         </NavigationContainer>
       </ThemeProvider>
