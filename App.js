@@ -16,6 +16,8 @@ import { theme } from "./src/infrastructure/theme";
 // import { HomeScreen } from "./src/features/screens/home.screen";
 import { SafeArea } from "./src/infrastructure/spacer/safe-area.components";
 
+import { HomeScreen } from "./src/features/screens/home.screen"
+
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {

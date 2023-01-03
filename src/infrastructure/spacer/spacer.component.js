@@ -1,4 +1,4 @@
-import React from "react";
+import React, { version } from "react";
 import styled, { useTheme } from "styled-components/native";
 
 const sizeVariant = {
